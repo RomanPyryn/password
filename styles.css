@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(130deg, #9900cc, #330066) no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 400px;
+  padding: 25px;
+  border-radius: 5%;
+  background: #ffffff25;
+}
+.input h1 {
+  font-size: 32px;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.input-box {
+	position: relative;
+	margin-top: 30px;
+}
+.input input {
+  width: calc(100% - 32px);
+  height: auto;
+  padding: 8px 16px;
+  background: #ffffff60;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  color: whitesmoke;
+}
+.input input::placeholder {
+  color: whitesmoke;
+}
+.show-password {
+	position: absolute;
+	top: 4px;
+	right: 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: transparent;
+	padding: 0;
+	width: 24px;
+	height: 24px;
+	background-image: url(./icon.svg);
+	background-size: contain;
+}
+.password-strength {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.password-strength div {
+  width: 100%;
+  height: 8px;
+  border-radius: 12px;
+  background-color: lightgray;
+}
+.buttons-box {
+	margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.buttons-box button {
+  background-color: #ffffff99;
+	padding: 8px 16px;
+	border-radius: 4px;
+  border: none;
+  outline: none;
+	font-size: 20px;
+	font-weight: 6	00;
+	color: #330066;
+	cursor: pointer;
+	transition: all 300ms linear;
+}
+.buttons-box button:hover,
+.buttons-box button:focus {
+	background: #33006699;
+	color: whitesmoke;
+}
+.message {
+	margin-top: 20px;
+	text-align: center;
+}
