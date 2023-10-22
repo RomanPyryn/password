@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (weak.style.backgroundColor === "green") {
       messageElement.textContent = `Пароль успішно збережено!`;
     } else {
-      messageElement.textContent = "Введіть надійний пароль!";
+			messageElement.textContent = "Введений пароль ненадійний!";
     }
   });
 
